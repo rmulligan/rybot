@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://rybot.org
-title: Ryan Mulligan
-subtitle: Project Blog.
-author: Ryan Mulligan
+title: '|RyBot|'
+subtitle: RyBot.org
+author: Ryan Mulligan.
 simple_search: http://google.com/search
 description: Testing
 
@@ -32,7 +32,8 @@ source: source
 destination: public
 plugins: plugins
 code_dir: downloads/code
-category_dir: blog/categories
+category_dir: blog/projects
+category_title_prefix: "Project: "
 markdown: rdiscount
 rdiscount:
   extensions:
@@ -62,14 +63,22 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 #   3rd Party Settings    #
 # ----------------------- #
 
+adn: # App.net
+social:
+  facebook: mullyradio
+  github: MulliganSoftware
+  linkedin: rcmulligan
+  twitter: ryanmulligan
+  youtube:
+  
 # Github repositories
-github_user:
+github_user: MulliganSoftware
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: ryanmulligan
 twitter_tweet_button: true
 
 # Google +1
