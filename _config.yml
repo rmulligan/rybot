@@ -33,7 +33,7 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/projects
-category_title_prefix: "Project: "
+category_title_prefix: ""
 markdown: rdiscount
 rdiscount:
   extensions:
@@ -103,7 +103,7 @@ disqus_short_name: rybotblog
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-46253332-1
 
 # Facebook Like
 facebook_like: true

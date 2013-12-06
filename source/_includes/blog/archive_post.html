@@ -9,6 +9,10 @@
   </div>
   <div class="grid__item four-fifths palm-one-whole">
     <h1 class="gamma"><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h1>
+    
+    {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+    {{ post.excerpt }}
+    <a class="btn pull-right" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
     {% if category != '0' %}
     <footer class="meta">
       <i class="icon-tags"></i>
