@@ -2,3 +2,18 @@
 .roundrect {
     border-radius:15px;
 }	       
+
+
+
+.gist {
+    font:100%/1 sans-serif;
+}
+
+.highlight .line-numbers {
+      font-size:100%;
+}
+
+
+html .gist .gist-file .gist-meta a[href*='#file'] {
+     right:0;
+}
